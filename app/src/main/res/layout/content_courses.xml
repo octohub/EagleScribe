@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/progressbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/progress.bar.margin.offset"
+      android:indeterminate="true"
+      android:visibility="gone"
+      style="?android:attr/progressBarStyleHorizontal"
+      />
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:foreground="?android:attr/selectableItemBackground"
+      android:scrollbars="vertical"
+      />
+
+  <TextView
+      android:id="@+id/main_view_empty_state"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="@string/Main.Activity.Empty.State"
+      android:visibility="gone"
+      style="@style/Subheading"
+      />
+
+  <TextView
+      android:id="@+id/search_view_empty_state"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="@string/Search.Activity.Empty.State"
+      android:visibility="gone"
+      style="@style/Subheading"
+      />
+
+</FrameLayout>

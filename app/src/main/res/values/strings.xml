@@ -1,0 +1,58 @@
+<resources>
+  <string name="app.name">EagleScribe</string>
+  <string name="search.hint">Search Class</string>
+  <string name="search.toast">Please enter at least 2 characters</string>
+  <string name="content.description.subscribe.button">Subscribe and Unsubscribe button</string>
+  <string name="course.cancelled">Course Cancelled</string>
+
+  <string name="cancelled">Cancelled</string>
+  <string name="open">Open</string>
+  <string name="closed">Closed</string>
+
+  <string name="course.time.format">&#032;- %1$s</string>
+
+  <string name="course.name">Name</string>
+  <string name="course.code">Code</string>
+  <string name="course.status">Status</string>
+  <string name="course.professor">Professor</string>
+  <string name="course.time">Time</string>
+  <string name="course.days">Days</string>
+  <string name="course.credit">Credit</string>
+  <string name="course.room">Room</string>
+  <string name="course.school">School</string>
+  <string name="course.semester">Semester</string>
+  <string name="about">About</string>
+
+  <string name="about_activity_name_richard_lucas">Richard Lucas - </string>
+  <string name="about_activity_twitter_richard_lucas"><a href="https://twitter.com/dickclucas"> @dickclucas</a></string>
+
+  <string name="about_activity_name_kevin_sullivan">Kevin Sullivan - </string>
+  <string name="about_activity_twitter_kevin_sullivan"><a href="https://twitter.com/kevsully5"> @kevsully5</a></string>
+
+  <string name="about_activity_name_adam_nelsen">Adam Nelsen - </string>
+  <string name="about_activity_twitter_adam_nelsen"><a href="https://twitter.com/cloudocows"> @cloudocows</a></string>
+
+  <string name="about_activity_rate"><a href="market://details?id=com.richardlucasapps.eaglescribe"> Enjoy EagleScribe? Please rate :)</a></string>
+
+  <string name="about_activity_gradYear_richardLucas">Boston College \'15</string>
+  <string name="about_activity_credit_richardLucas">App Development</string>
+  <string name="about_activity_gradYear_kevinSullivan">Boston College \'17</string>
+  <string name="about_activity_credit_kevinSullivan">App and Backend Development</string>
+  <string name="about_activity_credit_adamNelsen">Graphic Design</string>
+  <string name="eagleScribe_support_email">support@eaglescribe.com</string>
+
+  <string name="app_uri_for_google_play" translatable="false">market://details?id=com.richardlucasapps.eaglescribe</string>
+  <string name="could_not_open_app_in_Google_play">Could not open Google Play</string>
+  <string name="rate">Rate EagleScribe</string>
+  <string name="eaglescribe_logo">EagleScribe logo</string>
+
+  <string name="maximum_classes">You can\'t subscribe to more than three classes</string>
+
+  <string name="Course.Detail">Course Details</string>
+
+  <string name="Main.Activity.Empty.State">Looks like you haven\'t subscribed to a class.\nSearch for a class and tap the bell to subscribe!</string>
+  <string name="Search.Activity.Empty.State">Looks like we couldn\'t find anything that matched your search. Please try again!</string>
+  <string name="eagle_scribe_status">EagleScribe Status</string>
+  <string name="sign_in_fail">Could not sign in, subscribing to classes may fail</string>
+
+</resources>

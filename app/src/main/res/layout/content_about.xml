@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="@dimen/activity.margin"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_about_item_separation"
+        >
+
+      <TextView
+          android:id="@+id/activity_about_name_richardLucas"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_activity_name_richard_lucas"
+          style="@style/Title"
+          />
+
+      <TextView
+          android:id="@+id/activity_about_twitter_richardLucas"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_activity_twitter_richard_lucas"
+          style="@style/Title"
+          />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_about_item_separation"
+        android:text="@string/about_activity_gradYear_richardLucas"
+        style="@style/Subheading"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_about_group_separation"
+        android:text="@string/about_activity_credit_richardLucas"
+        style="@style/Subheading"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_about_item_separation"
+        >
+
+      <TextView
+          android:id="@+id/activity_about_name_kevinSullivan"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_activity_name_kevin_sullivan"
+          style="@style/Title"
+          />
+
+      <TextView
+          android:id="@+id/activity_about_twitter_kevinSullivan"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_activity_twitter_kevin_sullivan"
+          style="@style/Title"
+          />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_about_item_separation"
+        android:text="@string/about_activity_gradYear_kevinSullivan"
+        style="@style/Subheading"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_about_group_separation"
+        android:text="@string/about_activity_credit_kevinSullivan"
+        style="@style/Subheading"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_about_item_separation"
+        >
+
+      <TextView
+          android:id="@+id/activity_about_name_adamNelsen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_activity_name_adam_nelsen"
+          style="@style/Title"
+          />
+
+      <TextView
+          android:id="@+id/activity_about_twitter_adamNelsen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/about_activity_twitter_adam_nelsen"
+          style="@style/Title"
+          />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_about_group_separation_bigger"
+        android:text="@string/about_activity_credit_adamNelsen"
+        style="@style/Subheading"
+        />
+
+    <TextView
+        android:id="@+id/activity_about_supportEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:gravity="center"
+        android:paddingBottom="@dimen/activity_about_group_separation_bigger"
+        android:text="@string/eagleScribe_support_email"
+        style="@style/Title"
+        />
+
+    <Button
+        android:id="@+id/button_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/about_activity_rate"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/eaglescribe_logo"
+        android:gravity="center"
+        android:src="@drawable/byline"
+        />
+
+  </LinearLayout>
+</ScrollView>

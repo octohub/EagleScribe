@@ -1,0 +1,14 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity.margin">16dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+
+  <dimen name="progress.bar.margin.offset">-7dp</dimen>
+
+  <dimen name="list_item_class_details_heading_minWidth">70dp</dimen>
+  <dimen name="list_item_class_details_heading_minHeight">16dp</dimen>
+
+  <dimen name="activity_about_item_separation">8dp</dimen>
+  <dimen name="activity_about_group_separation">38dp</dimen>
+  <dimen name="activity_about_group_separation_bigger">45dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/color.primary</item>
+    <item name="colorPrimaryDark">@color/color.primary.dark</item>
+    <item name="colorAccent">@color/color.accent</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="Divider">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1dp</item>
+    <item name="android:background">?android:attr/listDivider</item>
+  </style>
+
+  <style name="CourseLabel" parent="Body1">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:minHeight">@dimen/list_item_class_details_heading_minHeight</item>
+    <item name="android:minWidth">@dimen/list_item_class_details_heading_minWidth</item>
+    <item name="android:textColor">@color/color.accent</item>
+    <item name="android:layout_gravity">center_vertical</item>
+  </style>
+
+  <style name="CourseInfo" parent="Subheading">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name="DetailItem">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:padding">@dimen/activity.margin</item>
+  </style>
+
+  <!-- Material Design typography https://material.google.com/style/typography.html#typography-styles -->
+  <style name="Title">
+    <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="Subheading">
+    <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="Body2" tools:ignore="UnusedResources">
+    <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+
+  <style name="Body1">
+    <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    <item name="android:textSize">14sp</item>
+  </style>
+
+</resources>

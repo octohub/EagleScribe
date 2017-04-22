@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.name"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/name"
+          tools:text="Professional Criminals (ADSO112101)"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.code"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/code"
+          tools:text="ADSO112101"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.status"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/status"
+          tools:text="Open"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.professor"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/professor"
+          tools:text="Department"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.time"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/time"
+          tools:text="6:15 p.m. - 9:15 p.m."
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.days"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/days"
+          tools:text="Thursday"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.credit"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/credit"
+          tools:text="04"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.room"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/room"
+          tools:text="DEVLIN HALL 216"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.school"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/school"
+          tools:text="Woods College of Advancing Studies"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout style="@style/DetailItem">
+
+      <TextView
+          android:text="@string/course.semester"
+          style="@style/CourseLabel"
+          />
+
+      <TextView
+          android:id="@+id/semester"
+          tools:text="Fall 2016"
+          style="@style/CourseInfo"
+          />
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+  </LinearLayout>
+</ScrollView>
