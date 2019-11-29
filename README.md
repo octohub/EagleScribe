@@ -18,3 +18,5 @@ MVP, Dagger 2, RxJava, and Retrofit.
 ![Image](https://lh3.googleusercontent.com/aX9NpHH3k9ci3b_nFBIuYx4bm2nw20mJaj4PYaVGlN6DnkBDoLAnYJX54H2arBcqTA=h900-rw)
 
 [Google Play]: <https://play.google.com/store/apps/details?id=com.richardlucasapps.eaglescribe>
+
+Adding commit to ensure EagleScribe is in https://archiveprogram.github.com/.
