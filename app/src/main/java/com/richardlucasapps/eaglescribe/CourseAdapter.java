@@ -1,5 +1,7 @@
 package com.richardlucasapps.eaglescribe;
 
+// Adding commit to ensure EagleScribe is in https://archiveprogram.github.com/.
+
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
